@@ -47,3 +47,14 @@ function envoi(){
     }
 }
 
+// Tableau de multiplication
+
+function calculer(){
+    document.getElementsByName("table")[0].innerHTML="";
+
+    var valeur =document.getElementsByName("nombre")[0].value;
+    for (var i=0; i<=9; i++){
+        var value=i*valeur;
+        document.getElementsByName("table")[0].innerHTML+=valeur+"*"+i+"="+value+"\n";
+    }  
+}
