@@ -58,3 +58,9 @@ function calculer(){
         document.getElementsByName("table")[0].innerHTML+=valeur+"*"+i+"="+value+"\n";
     }  
 }
+
+// barre de progression.
+function progression(){
+    document.getElementById('Pro').value+=5;
+    document.getElementById('num').innerHTML=document.getElementById('Pro').value;
+}

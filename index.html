@@ -9,6 +9,7 @@
     <title>Revision</title>
 </head>
 <body>
+    <!--affichage d'un element HTML-->
     <h1>boujeur</h1>
 
     <h3 id="hello">
@@ -28,6 +29,7 @@
        
     </div>
 <br>
+<!--Verification que les champs sont remplis avant l'envoi-->
     <div id="formulaire">
         <form name="form" action="#" onsubmit="envoi()">
            <label for="nom">Nom</label>
@@ -42,7 +44,8 @@
         </form>
     </div>
     <br>
-    <div>
+    <!--Multiplication d'un numero denné par l'utilisateur-->
+    <div id="TAB"
         <p>Tableau de multiplication</p>
         <form name="TabMulti">
             <input type="text" name="nombre">
@@ -51,6 +54,14 @@
             <textarea cols="15" rows="12" name="table"></textarea>
         </form>
 
+    </div><br>
+    <br>
+    <!-- progression de 5px a la click de souri-->
+    <div id="Prog">
+        <h3>Barre de progression</h3>
+        <p>Cliquer pour augmenter</p>
+    <progress max="150" value="55" id="Pro" onclick="progression()"></progress>
+    <span id="num">55%</span>
     </div>
 
 
