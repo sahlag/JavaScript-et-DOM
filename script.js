@@ -19,3 +19,31 @@ alert(text);
 var para = document.getElementById('hamida');
 var prenom = para.textContent;
 alert(prenom);
+
+
+
+// sélection par ID.
+
+document.getElementById('hello').innerHTML = "hello la famille"
+
+
+// vérification que les champs sont remplis lors de validation.
+function envoi(){
+    var verifName = document.getElementById('nom').value;
+    var verifPrenom = document.getElementById('prenom').value;
+
+    if (verifName ==""){
+        document.getElementById('Error1').innerHTML ="champ Nom est vide";
+    }
+    else {
+        document.getElementById('Error1').innerHTML="";
+    }
+
+    if (verifPrenom == ""){
+    document.getElementById('Error2').innerHTML="champ Prenom est vide";
+    }
+    else {
+        document.getElementById('Error2').innerHTML="";
+    }
+}
+
