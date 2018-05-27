@@ -1,0 +1,23 @@
+h1, #name{
+    width:300px;
+    text-align: center;
+    border: 2px solid blue;
+    text-transform: uppercase;
+    background: #b8b8c9;
+    padding: 3px 10px;
+    border-radius: 10px;
+    display: block;
+    cursor: pointer;
+}
+
+#hamida{
+    width:300px;
+    text-align: center;
+    border: 2px solid blue;
+    text-transform: uppercase;
+    background: #b8b8c9;
+    padding: 3px 10px;
+    border-radius: 10px;
+    display: block;
+    cursor: pointer;  
+}
