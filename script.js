@@ -62,5 +62,14 @@ function calculer(){
 // barre de progression.
 function progression(){
     document.getElementById('Pro').value+=5;
-    document.getElementById('num').innerHTML=document.getElementById('Pro').value;
+    document.getElementById('num').innerHTML=document.getElementById('Pro').value+"%";
+}
+
+// selection par sélecteur CSS
+
+function colorer(){
+    var x = document.querySelectorAll("#elem em");
+    for( var i = 0; i < x.length;i++){
+        x[i].style.color= "red";
+    }
 }
